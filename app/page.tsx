@@ -4,6 +4,7 @@ import Projects from '@/components/Projects'
 import TechStack from '@/components/TechStack'
 import Testimonial from '@/components/Testimonial'
 import Contact from '@/components/Contact'
+import FadeInSection from '@/components/FadeInSection'
 
 export default function Home() {
   return (
@@ -21,12 +22,12 @@ export default function Home() {
         </nav>
       </header>
       <main className="max-w-5xl mx-auto px-4 py-16 space-y-24">
-        <Hero />
-        <section id="about"><About /></section>
-        <section id="projects"><Projects /></section>
-        <section id="tech"><TechStack /></section>
-        <section id="testimonial"><Testimonial /></section>
-        <section id="contact"><Contact /></section>
+        <FadeInSection><Hero /></FadeInSection>
+        <FadeInSection delay={0.1}><section id="about"><About /></section></FadeInSection>
+        <FadeInSection delay={0.2}><section id="projects"><Projects /></section></FadeInSection>
+        <FadeInSection delay={0.3}><section id="tech"><TechStack /></section></FadeInSection>
+        <FadeInSection delay={0.4}><section id="testimonial"><Testimonial /></section></FadeInSection>
+        <FadeInSection delay={0.5}><section id="contact"><Contact /></section></FadeInSection>
       </main>
     </main>
   )
