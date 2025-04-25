@@ -7,7 +7,7 @@ export default function Hero() {
           alt="Cass Cav"
           className="w-32 h-32 rounded-full object-cover border border-gray-300 mb-4"
         />
-        <h1 className="text-4xl md:text-5xl font-bold mb-2">Cass Cav</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-2">Cass C.</h1>
         <p className="text-lg text-gray-600 mb-4">Frontend-leaning Fullstack Software Engineer</p>
         <div className="flex gap-4">
           <a
