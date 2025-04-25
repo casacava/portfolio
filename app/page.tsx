@@ -2,6 +2,7 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
 import TechStack from '@/components/TechStack'
+import Testimonial from '@/components/Testimonial'
 import Contact from '@/components/Contact'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <li><a href="#about" className="hover:underline">About</a></li>
             <li><a href="#projects" className="hover:underline">Projects</a></li>
             <li><a href="#tech" className="hover:underline">Tech</a></li>
+            <li><a href="#testimonial" className="hover:underline">Feedback</a></li>
             <li><a href="#contact" className="hover:underline">Contact</a></li>
           </ul>
         </nav>
@@ -23,6 +25,7 @@ export default function Home() {
         <section id="about"><About /></section>
         <section id="projects"><Projects /></section>
         <section id="tech"><TechStack /></section>
+        <section id="testimonial"><Testimonial /></section>
         <section id="contact"><Contact /></section>
       </main>
     </main>
