@@ -3,7 +3,7 @@
 Welcome to my portfolio! This is a fully responsive, scroll-animated, personal site built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/). It highlights my latest projects, experience, and design-forward approach as a frontend-leaning fullstack engineer.
 
 ### 🚀 Live Site  
-🔗 [https://cass-portfolio.vercel.app/](https://portfolio-bgbsma2tn-casscavas-projects-4c538391.vercel.app)
+🔗 [https://portfolio-two-omega-82.vercel.app/](https://portfolio-two-omega-82.vercel.app/)
 
 ---
 
