@@ -9,7 +9,8 @@ export default function Hero() {
         />
         <h1 className="text-4xl md:text-5xl font-bold mb-2">Cass C.</h1>
         <p className="text-lg text-gray-600 mb-4">Frontend-leaning Fullstack Software Engineer</p>
-        <div className="flex gap-4">
+
+        <div className="grid grid-cols-2 gap-4">
           <a
             href="#contact"
             className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800"
@@ -21,6 +22,22 @@ export default function Hero() {
             className="border border-black px-4 py-2 rounded-md hover:bg-gray-100"
           >
             See My Work
+          </a>
+          <a
+            href="https://github.com/casacava"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-black px-4 py-2 rounded-md hover:bg-gray-100"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/casacava/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-black px-4 py-2 rounded-md hover:bg-gray-100"
+          >
+            LinkedIn
           </a>
         </div>
       </div>

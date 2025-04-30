@@ -5,7 +5,8 @@ export default function Contact() {
       <p className="mb-2">Let’s build something together.</p>
       <p>
         📩 <a href="mailto:casslcava@outlook.com" className="text-blue-600 hover:underline">casslcava@outlook.com</a><br />
-        🌐 <a href="https://www.linkedin.com/in/casacava" className="text-blue-600 hover:underline" target="_blank">LinkedIn</a>
+        🌐 <a href="https://www.linkedin.com/in/casacava" className="text-blue-600 hover:underline" target="_blank">LinkedIn</a><br />
+        🐱 <a href="https://github.com/casacava" className="text-blue-600 hover:underline" target="_blank">Github</a>
       </p>
     </section>
   )
